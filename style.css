@@ -1,0 +1,45 @@
+body,html{
+    background-color: rgba(4, 250, 250, 0.295);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.container{
+    background-color: blue ;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 250px;
+    width: 80%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+
+.container div{
+    background-color:blue;
+    height: 100%;
+}
+
+.container div>i{
+   display:flex;
+   height:100%;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 100px;
+}
+
+.imagem{
+    background:linear-gradient(to top right , #FFCD53, #C729BE );
+    color: white;
+}
